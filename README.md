@@ -1,16 +1,8 @@
 # flvParseFromFile
 
-1. FlvResolver（被註解掉）主要是解析 FLV container 結構：
+解析FLV串流檔案格式
 
-header
-
-tag header + tag size
-
-不解析 tag data
-
-2. parseScriptData 則是 解析 tag 內的資料（metadata/script）
-
-3. 流程:
+流程:
 
 建立 FlvResolver 物件
         ↓
